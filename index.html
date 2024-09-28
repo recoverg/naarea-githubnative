@@ -3,16 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startpage</title>
+    <title>Meeting Notice</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        nav {
+            background-color: #007acc;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
             margin: 0;
-            background-color: #f0f0f0;
+            padding: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin-right: 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
         }
         h1 {
             color: #333;
@@ -20,6 +37,14 @@
     </style>
 </head>
 <body>
-    <h1>This is teh start page</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resources.html">Resources</a></li>
+            <li><a href="reading1.html">Reading 1</a></li>
+            <li><a href="reading2.html">Reading 2</a></li>
+        </ul>
+    </nav>
+    <h1>Meeting this Thursday!</h1>
 </body>
 </html>
